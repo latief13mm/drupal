@@ -802,14 +802,27 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+
+// $databases['default']['default'] = array (
+//   'database' => 'drupal-ass3',
+//   'username' => 'admin',
+//   'password' => '2MqBTRyD',
+//   'prefix' => '',
+//   'host' => 'mysql-47133-0.cloudclusters.net',
+//   'port' => '19869',
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'driver' => 'mysql',
+// );
+// $settings['config_sync_directory'] = 'sites/default/files/config_U_v0TIwzW98g2XMAVY8Mr0D7ab_ZnKLXis07UWVvzfP-jWIc6gbowshjaCpTuJi7wYeCHNPBiw/sync';
+
 $databases['default']['default'] = array (
-  'database' => 'drupal-ass3',
-  'username' => 'admin',
-  'password' => '2MqBTRyD',
+  'database' => 'drupal',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
-  'host' => 'mysql-47133-0.cloudclusters.net',
-  'port' => '19869',
+  'host' => 'localhost',
+  'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_U_v0TIwzW98g2XMAVY8Mr0D7ab_ZnKLXis07UWVvzfP-jWIc6gbowshjaCpTuJi7wYeCHNPBiw/sync';
+$settings['hash_salt'] = 'trvaiZXe44L8ztxH9oEUT32rr5ti25RdPRl1VQ9XvH33nLPivJiI9JqVYWZMHnWXaNQT6cFtlg';
